@@ -83,6 +83,12 @@
 		<Unit filename="C:/Users/vedamsh/CLionProjects/Trees_algo/main.cpp">
 			<Option target="Trees_algo"/>
 		</Unit>
+		<Unit filename="C:/Users/vedamsh/CLionProjects/Trees_algo/trees/traversal.cpp">
+			<Option target="Trees_algo"/>
+		</Unit>
+		<Unit filename="C:/Users/vedamsh/CLionProjects/Trees_algo/trees/traversal.h">
+			<Option target="Trees_algo"/>
+		</Unit>
 		<Unit filename="C:/Users/vedamsh/CLionProjects/Trees_algo/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

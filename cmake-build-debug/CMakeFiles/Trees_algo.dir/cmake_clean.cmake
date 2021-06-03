@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Trees_algo.dir/main.cpp.obj"
+  "CMakeFiles/Trees_algo.dir/trees/traversal.cpp.obj"
   "Trees_algo.exe"
   "Trees_algo.exe.manifest"
   "Trees_algo.pdb"

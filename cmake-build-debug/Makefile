@@ -149,6 +149,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\Trees_algo.dir\build.make CMakeFiles/Trees_algo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+trees/traversal.obj: trees/traversal.cpp.obj
+
+.PHONY : trees/traversal.obj
+
+# target to build an object file
+trees/traversal.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trees_algo.dir\build.make CMakeFiles/Trees_algo.dir/trees/traversal.cpp.obj
+.PHONY : trees/traversal.cpp.obj
+
+trees/traversal.i: trees/traversal.cpp.i
+
+.PHONY : trees/traversal.i
+
+# target to preprocess a source file
+trees/traversal.cpp.i:
+	$(MAKE) -f CMakeFiles\Trees_algo.dir\build.make CMakeFiles/Trees_algo.dir/trees/traversal.cpp.i
+.PHONY : trees/traversal.cpp.i
+
+trees/traversal.s: trees/traversal.cpp.s
+
+.PHONY : trees/traversal.s
+
+# target to generate assembly for a file
+trees/traversal.cpp.s:
+	$(MAKE) -f CMakeFiles\Trees_algo.dir\build.make CMakeFiles/Trees_algo.dir/trees/traversal.cpp.s
+.PHONY : trees/traversal.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,6 +188,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... trees/traversal.obj
+	@echo ... trees/traversal.i
+	@echo ... trees/traversal.s
 .PHONY : help
 
 

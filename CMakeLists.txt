@@ -3,4 +3,4 @@ project(Trees_algo)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Trees_algo main.cpp)
+add_executable(Trees_algo main.cpp trees/traversal.cpp trees/traversal.h)
